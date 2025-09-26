@@ -20,6 +20,35 @@
 - **Out-of-Scope (v1)**:
   - User accounts, social features, workout plans, timers, video hosting.
 
+## Muscle ID Map
+
+This map defines the `id` attributes for the clickable `<path>` elements in the SVG body maps.
+
+### Front View
+| Muscle Group | ID |
+|---|---|
+| Neck | `neck` |
+| Shoulders | `shoulders` |
+| Biceps | `biceps` |
+| Forearms | `forearms` |
+| Chest | `chest` |
+| Abs | `abs` |
+| Obliques | `obliques` |
+| Quads | `quads` |
+| Adductors | `adductors` |
+
+### Side/Back View
+| Muscle Group | ID |
+|---|---|
+| Traps | `traps` |
+| Triceps | `triceps` |
+| Lats | `lats` |
+| Middle Back | `middle-back` |
+| Lower Back | `lower-back` |
+| Glutes | `glutes` |
+| Hamstrings | `hamstrings` |
+| Calves | `calves` |
+
 ## Milestones
 1. **Week 1-2 (Sep 26–Oct 10, 2025)**: Set up repo, finalize muscle ID map, draft initial exercise set.
 2. **Week 3-4 (Oct 11–Oct 24, 2025)**: Build SVG maps, implement front-end (vanilla JS), and integrate JSON content.

@@ -1,35 +1,160 @@
 {
   "muscles": [
     {
-      "id": "chest",
-      "name": "Chest",
+      "id": "neck",
+      "name": "Neck",
       "exercises": [
-        {
-          "name": "Push-ups",
-          "difficulty": "Beginner",
-          "equipment": "None"
-        },
-        {
-          "name": "Incline Push-ups",
-          "difficulty": "Beginner",
-          "equipment": "None"
-        }
+        { "name": "Neck Flexion", "difficulty": "Beginner", "equipment": "None" },
+        { "name": "Neck Extension", "difficulty": "Beginner", "equipment": "None" },
+        { "name": "Lateral Neck Flexion", "difficulty": "Beginner", "equipment": "None" }
       ]
     },
     {
-      "id": "back",
-      "name": "Back",
+      "id": "shoulders",
+      "name": "Shoulders",
       "exercises": [
-        {
-          "name": "Pull-ups",
-          "difficulty": "Intermediate",
-          "equipment": "Pull-up bar"
-        },
-        {
-          "name": "Supermans",
-          "difficulty": "Beginner",
-          "equipment": "None"
-        }
+        { "name": "Pike Push-ups", "difficulty": "Intermediate", "equipment": "None" },
+        { "name": "Handstand Push-ups (against wall)", "difficulty": "Advanced", "equipment": "None" },
+        { "name": "Lateral Raises (with bands)", "difficulty": "Beginner", "equipment": "Resistance bands" }
+      ]
+    },
+    {
+      "id": "biceps",
+      "name": "Biceps",
+      "exercises": [
+        { "name": "Chin-ups", "difficulty": "Intermediate", "equipment": "Pull-up bar" },
+        { "name": "Bodyweight Bicep Curls", "difficulty": "Intermediate", "equipment": "None" },
+        { "name": "Towel Curls", "difficulty": "Beginner", "equipment": "Towel" }
+      ]
+    },
+    {
+      "id": "forearms",
+      "name": "Forearms",
+      "exercises": [
+        { "name": "Wrist Curls (with dumbbell)", "difficulty": "Beginner", "equipment": "Dumbbell" },
+        { "name": "Farmer's Walk (with weights)", "difficulty": "Beginner", "equipment": "Weights" },
+        { "name": "Dead Hangs", "difficulty": "Beginner", "equipment": "Pull-up bar" }
+      ]
+    },
+    {
+      "id": "chest",
+      "name": "Chest",
+      "exercises": [
+        { "name": "Push-ups", "difficulty": "Beginner", "equipment": "None" },
+        { "name": "Incline Push-ups", "difficulty": "Beginner", "equipment": "None" },
+        { "name": "Decline Push-ups", "difficulty": "Intermediate", "equipment": "None" },
+        { "name": "Dips", "difficulty": "Intermediate", "equipment": "Parallel bars" }
+      ]
+    },
+    {
+      "id": "abs",
+      "name": "Abs",
+      "exercises": [
+        { "name": "Crunches", "difficulty": "Beginner", "equipment": "None" },
+        { "name": "Leg Raises", "difficulty": "Beginner", "equipment": "None" },
+        { "name": "Plank", "difficulty": "Beginner", "equipment": "None" },
+        { "name": "V-ups", "difficulty": "Intermediate", "equipment": "None" }
+      ]
+    },
+    {
+      "id": "obliques",
+      "name": "Obliques",
+      "exercises": [
+        { "name": "Russian Twists", "difficulty": "Beginner", "equipment": "None" },
+        { "name": "Side Plank", "difficulty": "Beginner", "equipment": "None" },
+        { "name": "Bicycle Crunches", "difficulty": "Beginner", "equipment": "None" }
+      ]
+    },
+    {
+      "id": "quads",
+      "name": "Quads",
+      "exercises": [
+        { "name": "Squats", "difficulty": "Beginner", "equipment": "None" },
+        { "name": "Lunges", "difficulty": "Beginner", "equipment": "None" },
+        { "name": "Pistol Squats", "difficulty": "Advanced", "equipment": "None" },
+        { "name": "Wall Sits", "difficulty": "Beginner", "equipment": "None" }
+      ]
+    },
+    {
+      "id": "adductors",
+      "name": "Adductors",
+      "exercises": [
+        { "name": "Cossack Squats", "difficulty": "Intermediate", "equipment": "None" },
+        { "name": "Side Lunges", "difficulty": "Beginner", "equipment": "None" },
+        { "name": "Standing Hip Adduction (with bands)", "difficulty": "Beginner", "equipment": "Resistance bands" }
+      ]
+    },
+    {
+      "id": "traps",
+      "name": "Traps",
+      "exercises": [
+        { "name": "Shrugs (with weights)", "difficulty": "Beginner", "equipment": "Weights" },
+        { "name": "Farmer's Walk (with weights)", "difficulty": "Beginner", "equipment": "Weights" },
+        { "name": "Upright Rows (with bands)", "difficulty": "Beginner", "equipment": "Resistance bands" }
+      ]
+    },
+    {
+      "id": "triceps",
+      "name": "Triceps",
+      "exercises": [
+        { "name": "Diamond Push-ups", "difficulty": "Intermediate", "equipment": "None" },
+        { "name": "Tricep Dips (on bench)", "difficulty": "Beginner", "equipment": "Bench" },
+        { "name": "Overhead Tricep Extensions (with bands)", "difficulty": "Beginner", "equipment": "Resistance bands" }
+      ]
+    },
+    {
+      "id": "lats",
+      "name": "Lats",
+      "exercises": [
+        { "name": "Pull-ups", "difficulty": "Intermediate", "equipment": "Pull-up bar" },
+        { "name": "Chin-ups", "difficulty": "Intermediate", "equipment": "Pull-up bar" },
+        { "name": "Inverted Rows", "difficulty": "Beginner", "equipment": "Bar or table" }
+      ]
+    },
+    {
+      "id": "middle-back",
+      "name": "Middle Back",
+      "exercises": [
+        { "name": "Supermans", "difficulty": "Beginner", "equipment": "None" },
+        { "name": "Inverted Rows", "difficulty": "Beginner", "equipment": "Bar or table" },
+        { "name": "Band Pull-aparts", "difficulty": "Beginner", "equipment": "Resistance bands" }
+      ]
+    },
+    {
+      "id": "lower-back",
+      "name": "Lower Back",
+      "exercises": [
+        { "name": "Good Mornings (bodyweight)", "difficulty": "Beginner", "equipment": "None" },
+        { "name": "Bird-dog", "difficulty": "Beginner", "equipment": "None" },
+        { "name": "Glute Bridges", "difficulty": "Beginner", "equipment": "None" }
+      ]
+    },
+    {
+      "id": "glutes",
+      "name": "Glutes",
+      "exercises": [
+        { "name": "Glute Bridges", "difficulty": "Beginner", "equipment": "None" },
+        { "name": "Hip Thrusts", "difficulty": "Intermediate", "equipment": "Bench" },
+        { "name": "Squats", "difficulty": "Beginner", "equipment": "None" },
+        { "name": "Lunges", "difficulty": "Beginner", "equipment": "None" }
+      ]
+    },
+    {
+      "id": "hamstrings",
+      "name": "Hamstrings",
+      "exercises": [
+        { "name": "Good Mornings (bodyweight)", "difficulty": "Beginner", "equipment": "None" },
+        { "name": "Glute Bridges", "difficulty": "Beginner", "equipment": "None" },
+        { "name": "Nordic Hamstring Curls (assisted)", "difficulty": "Advanced", "equipment": "Partner or anchor" }
+      ]
+    },
+    {
+      "id": "calves",
+      "name": "Calves",
+      "exercises": [
+        { "name": "Calf Raises", "difficulty": "Beginner", "equipment": "None" },
+        { "name": "Jump Rope", "difficulty": "Beginner", "equipment": "Jump rope" },
+        { "name": "Box Jumps", "difficulty": "Intermediate", "equipment": "Box" }
       ]
     }
   ]

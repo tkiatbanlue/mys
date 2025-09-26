@@ -1,0 +1,18 @@
+<svg width="300" height="600" viewBox="0 0 300 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .muscle {
+      fill: #ccc;
+      stroke: #666;
+      stroke-width: 1;
+      cursor: pointer;
+    }
+    .muscle:hover {
+      fill: #f00;
+    }
+  </style>
+  <rect x="50" y="50" width="200" height="500" fill="#eee" />
+
+  <path id="triceps" class="muscle" d="M 150,200 L 200,200 L 200,300 L 150,300 Z" />
+  <path id="glutes" class="muscle" d="M 50,350 L 150,350 L 150,450 L 50,450 Z" />
+  <path id="hamstrings" class="muscle" d="M 50,450 L 150,450 L 150,550 L 50,550 Z" />
+</svg>

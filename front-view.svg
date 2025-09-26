@@ -1,0 +1,18 @@
+<svg width="300" height="600" viewBox="0 0 300 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .muscle {
+      fill: #ccc;
+      stroke: #666;
+      stroke-width: 1;
+      cursor: pointer;
+    }
+    .muscle:hover {
+      fill: #f00;
+    }
+  </style>
+  <rect x="50" y="50" width="200" height="500" fill="#eee" />
+
+  <path id="chest" class="muscle" d="M 100,150 Q 150,140 200,150 L 200,250 L 100,250 Z" />
+  <path id="abs" class="muscle" d="M 100,250 L 200,250 L 200,350 L 100,350 Z" />
+  <path id="shoulders" class="muscle" d="M 70,130 C 100,120 200,120 230,130 L 200,160 L 100,160 Z" />
+</svg>
