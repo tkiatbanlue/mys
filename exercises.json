@@ -1,0 +1,36 @@
+{
+  "muscles": [
+    {
+      "id": "chest",
+      "name": "Chest",
+      "exercises": [
+        {
+          "name": "Push-ups",
+          "difficulty": "Beginner",
+          "equipment": "None"
+        },
+        {
+          "name": "Incline Push-ups",
+          "difficulty": "Beginner",
+          "equipment": "None"
+        }
+      ]
+    },
+    {
+      "id": "back",
+      "name": "Back",
+      "exercises": [
+        {
+          "name": "Pull-ups",
+          "difficulty": "Intermediate",
+          "equipment": "Pull-up bar"
+        },
+        {
+          "name": "Supermans",
+          "difficulty": "Beginner",
+          "equipment": "None"
+        }
+      ]
+    }
+  ]
+}

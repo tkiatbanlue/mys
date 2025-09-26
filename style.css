@@ -1,0 +1,36 @@
+/* Basic Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+}
+
+#muscle-map {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#exercise-list {
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
